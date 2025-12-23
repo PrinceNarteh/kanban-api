@@ -1,3 +1,4 @@
+// Package handlers contains all the handlers of the application
 package handlers
 
 import (
