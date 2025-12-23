@@ -7,5 +7,6 @@ func main() {
 
 	app := NewApplication()
 	r := app.mount()
+	app.initRoutes(r)
 	utils.Logger.Fatal(app.run(r))
 }
